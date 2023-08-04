@@ -6,3 +6,5 @@ This script will generate sha256sum hashes for each file in the '/home/username/
 If the script finds a discrepancy between a file hash and a saved hash for that particular file, it will send notifications to an email address mentioned in that script as "recipient".
 
 It will be very useful on servers running "Auditd". When a new notification is received, the user can check the "audit.log" for more information about the change.
+
+Create a cronjob to run script automatically. 
